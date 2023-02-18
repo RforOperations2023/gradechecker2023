@@ -27,7 +27,7 @@ ui <- dashboardPage(skin = "green",
             selectInput("assignment",
                         "View Grade for:",
                         choices = c("Course Grades", "Homework 1", "Homework 2", "Final Project"),
-                        selected = "Homework 1")
+                        selected = "Homework 2")
             ),
         dashboardBody(
                 fluidRow(
